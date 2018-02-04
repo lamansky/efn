@@ -1,0 +1,35 @@
+{
+  "name": "efn",
+  "version": "1.0.0",
+  "description": "Extracts a Function. Gets an object method while preserving its binding.",
+  "keywords": [
+    "extract",
+    "bound",
+    "function",
+    "method",
+    "object"
+  ],
+  "author": "John Lamansky",
+  "license": "MIT",
+  "homepage": "https://github.com/lamansky/efn",
+  "repository": "lamansky/efn",
+  "main": "index.js",
+  "files": [],
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "eslint-config-lamansky": "^1.0.0",
+    "mocha": "^5.0.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "eslintConfig": {
+    "extends": "lamansky",
+    "env": {
+      "mocha": true
+    }
+  }
+}
