@@ -1,13 +1,14 @@
 {
   "name": "efn",
-  "version": "1.0.0",
-  "description": "Extracts a Function. Gets an object method while preserving its binding.",
+  "version": "1.0.1",
+  "description": "Extracts a function. Gets an object method while preserving its binding.",
   "keywords": [
     "extract",
     "bound",
     "function",
     "method",
-    "object"
+    "object",
+    "unary bind operator"
   ],
   "author": {
     "name": "Fr. John Lamansky",
