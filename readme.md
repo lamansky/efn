@@ -1,9 +1,5 @@
 # Extracted Function (efn)
 
-```javascript
-module.exports = (obj, key) => obj[key].bind(obj)
-```
-
 If you assign an object method to a variable (or pass it to a function as a callback argument) and then call it later, the method will be called without being bound to the object. In other words, it’ll have no `this` context. To fix this, use this module to “extract” the method from the object.
 
 This module provides the same functionality as the proposed [unary bind operator](https://github.com/tc39/proposal-bind-operator).

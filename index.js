@@ -1,3 +1,7 @@
 'use strict'
 
-module.exports = (obj, key) => obj[key].bind(obj)
+module.exports = function efn (obj, key) {
+  let value = obj[key]
+  if (typeof value === 'function') value = value.bind(obj)
+  return value
+}
